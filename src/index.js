@@ -2,15 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import { CookiesContainer } from "./styles";
 
 export default function CookiesPolicy({
-  styles = {
-    containerBackgroundColor: null,
-    linkColor: null,
-    buttonBackgroundColor,
-    buttonTextColor,
-    buttonFontFamily,
-    paragraphFontFamily,
-    paragraphColor,
-  },
+  styles = {},
   cookiesPolicyLinkHref = "#",
   cookiesPolicyLinkTarget = "_blank",
   cookiesPolicyLinkRel = "noopener noreferrer",

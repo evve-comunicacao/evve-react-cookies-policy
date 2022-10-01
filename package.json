@@ -1,6 +1,6 @@
 {
   "name": "evve-react-cookies-policy",
-  "version": "1.0.6",
+  "version": "1.0.14",
   "main": "./build/index.js",
   "license": "MIT",
   "private": false,
@@ -20,9 +20,11 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"
   }
 }
