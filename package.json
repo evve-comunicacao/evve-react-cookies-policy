@@ -1,9 +1,11 @@
 {
   "name": "evve-react-cookies-policy",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "./build/index.js",
   "license": "MIT",
   "private": false,
+  "author": "Vitor Carmo",
+  "repository": "evve-comunicacao/evve-react-cookies-policy",
   "scripts": {
     "build": "webpack"
   },
